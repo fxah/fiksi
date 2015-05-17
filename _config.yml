@@ -1,0 +1,14 @@
+
+title: Awesome Fiction
+baseurl: "/blog"
+url: "https://yourgithub.github.io"
+twitter_username: yourtwitter
+github_username:  yourgithub
+permalink: /:year/:month/:day/:title/
+paginate: 16
+markdown: kramdown
+kramdown:
+    input: GFM
+gems:
+    - jemoji
+

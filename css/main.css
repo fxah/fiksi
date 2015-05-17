@@ -1,0 +1,303 @@
+
+html{
+	height: 100%;
+}
+body{
+	margin:0;
+	padding:0;
+	font-size:10px;
+	background:white;
+	height: 100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+
+/* text align */
+.lf{
+	text-align:left !important;
+}
+.rg{
+	text-align:right !important;
+}
+.cn{
+	text-align:center !important;
+}
+.jt{
+	text-align:justify !important;
+}
+
+/* header */
+
+.site-header{
+	background:#333;
+	border-bottom:3px solid #999;
+}
+.site-header .wrapper{
+	max-width:600px;
+	margin:0 auto;
+	padding:8px;
+}
+.site-header .wrapper a{
+	display:inline-block;
+	font:bold small-caps 2em "Source Sans Pro", sans-serif;
+	margin:8px 0;
+	color:#ccc;
+	text-decoration:none;
+	text-shadow:0px 0px 4px white;
+	letter-spacing:.2em;
+}
+nav {
+	float:right;
+}
+nav:after{
+	clear:both;
+}
+.icon > svg{
+	display:inline-block;
+	vertical-align:middle;
+	height:16px;
+	width:16px;
+}
+nav .icon > svg{
+	margin-left:4px;
+}
+
+/* content */
+
+.wrap{
+	max-width:600px;
+	margin:0 auto;
+	padding:8px;
+}
+.wrap a, .wrap a:visited{
+	color:black;
+	text-decoration:underline;
+}
+.wrap a:hover{
+	color:gray;
+	text-decoration:none;
+}
+
+/* post */
+
+.page-content{
+	min-height:100%;
+}
+.post{
+	padding:8px;
+}
+
+/* pagination */
+
+.home{
+	margin-bottom:5em;
+}
+ul.pagination{
+	padding:0;
+}
+ul.pagination li{
+	display:inline-block;
+}
+.previous{
+	float:left;
+}
+.next{
+	float:right;
+}
+.pagination:after {
+	content: "";
+	display: block;
+	height: 0;
+	width: 0;
+	clear: both;
+}
+.pagination a:hover {
+	opacity:0.7;
+}
+
+/* article header */
+
+.post-header{
+	margin:6em 0;
+}
+.post-title{
+	font:italic normal 4em/1.2em "Crimson Text", "Bitter", serif;
+	margin-bottom:.5em;
+	text-align:center;
+}
+.post-meta, .post-taxa, .post-license{
+	font:bold normal 1.4em "Source Sans Pro", "Arial", sans-serif !important;
+	color:gray;
+	margin-bottom:.5em;
+	text-transform:uppercase;
+	text-align:center;
+}
+.post-license{
+	font-size:1.2em !important;
+}
+.post-license a,.post-license a:visited{
+	text-decoration:none;
+	color:gray;
+}
+
+/* article */
+
+article{
+	padding-bottom:1em;
+}
+article.post-content{
+	font:normal normal 1.8em/1.5em "Bitter", "Times New Roman", sans-serif;
+}
+article .emoji{
+	width:1em;
+	height:1em;
+	margin-top:-6px;
+}
+article p{
+	margin:0;
+	padding:0;
+	text-align:justify;
+	text-indent:1em;
+	-moz-hyphens: auto;
+	-webkit-hypens: auto;
+	-o-hypens: auto;
+	hyphens: auto;
+}
+article p code,
+article pre code{
+	font-family:"Liberation Mono", "Courier", "Courier New", monospace;
+}
+article p code{
+	font-size:1em;
+}
+article pre{
+	white-space:pre-wrap;
+	margin:.5em 0;
+	padding:1em;
+	border:1px solid #aaa;
+	font-size:.8em;
+	line-height:1.4em;
+}
+article pre .lineno{
+	color:#ccc;
+}
+
+article p.ni{
+	text-indent:0;
+}
+article p.mr{
+	text-indent:0;
+	margin:0.5em 0;
+	text-align:center;
+}
+article img{
+	max-width:100%;
+}
+article blockquote{
+	margin:.5em 1em;
+	padding:1em;
+	font-size:.9em;
+	line-height:1.3em;
+	border:1px solid gray;
+}
+
+/* screenplay stuff */
+
+.s-ts,.s-st,.s-ds,.s-ch,.s-di,.s-dj,.s-em{
+	font:normal normal .8em/1.4em "Liberation Mono", "Courier", "Courier New", monospace;
+	text-indent:0;
+	-moz-hyphens: manual;
+	-webkit-hypens: manual;
+	-o-hypens: manual;
+	hyphens:manual;
+	text-align:left;
+}
+.s-ts{
+	text-align:right;
+}
+.s-st{
+	text-decoration:underline;
+}
+.s-ds{
+}
+.s-ts,.s-st,.s-ds{
+	margin-bottom:1em;
+}
+.s-ch,.s-di,.s-dj,.s-em{
+	margin-left:auto;
+	margin-right:auto;
+}
+.s-ch{
+	width:30%;
+}
+.s-em{
+	width:40%;
+}
+.s-di,.s-dj{
+	width:60%;
+}
+.s-di{
+	margin-bottom:1em;
+}
+
+/* list */
+
+.post-list-header{
+	font:bold small-caps 3em "Source Sans Pro", sans-serif;
+	text-align:center;
+}
+.post-list{
+	margin:2em 0 0 0;
+	padding:0;
+}
+.post-list li{
+	list-style-type:none;
+	margin:0 0 1em 0;
+}
+a.post-link, a.post-link:visited{
+	font:italic normal 1.6em "Crimson Text", "Bitter", serif;
+	color:#000;
+}
+a.post-link:hover{
+	color:#888;
+	text-decoration:none;
+}
+
+/* footer */
+
+footer{
+	background:#333;
+	border-top:3px solid #999;
+	text-align:center;
+	color:#ccc;
+	padding:4px 0;
+	font:normal normal 1.2em "Source Sans Pro", sans-serif;
+	clear: both;
+	position: relative;
+	z-index: 10;
+}
+footer a,footer a:visited{
+	color:#ccc;
+	font-weight:800;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-shadow:0px 0px 2px white;
+	letter-spacing:.2em;
+}
+
+/* viewport */
+
+@media all and (max-width: 480px) {
+	.post-title{
+		font-size:3em;
+	}
+	.post-meta{
+		font-size:1em;
+	}
+	article.post-content {
+		font-size:1.4em;
+	}
+}
+
