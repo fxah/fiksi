@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<ul class='pagination'>
+	<!-- paginate this -->
+</ul>
+<div class='home'>
+	<h1 class='post-list-header'><a href="{{ site.baseurl }}/label/{{ page.tag }}/">{{ page.tag }}</a></h1>
+	{% if site.tags[page.tag] %}
+		<ul class='post-list'>
+		{% for post in site.tags[page.tag] %}
+			<li>
+				<span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+				<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+			</li>
+		{% endfor %}
+		</ul>
+	{% else %}
+		<p>There are no posts marked with this label.</p>
+	{% endif %}
+</div>

@@ -1,0 +1,73 @@
+---
+layout: default
+---
+{% capture paginate %}
+<ul class="pagination">
+	{% if page.previous.url %}
+	<li class="previous">
+		<a href="{{ site.baseurl }}{{ page.previous.url }}">
+			<span class='icon'>
+				<svg viewBox="0 0 512 512">
+					<path fill="#333" d="M 348.219,256 440.438,440.438 71.563,256 M 512,0 0,256 512,512 384,256 512,0 l 0,0 z"/>
+				</svg>
+			</span>
+		</a>
+	</li>
+	{% endif %}
+	{% if page.next.url %}
+	<li class="next">
+		<a href="{{ site.baseurl }}{{ page.next.url }}">
+			<span class='icon'>
+				<svg viewBox="0 0 512 512">
+					<path fill="#333" d="M 163.781,256 71.562,71.562 440.437,256 M 0,512 512,256 0,0 128,256 0,512 l 0,0 z"/>
+				</svg>
+			</span>
+		</a>
+	</li>
+	{% endif %}
+</ul>
+{% endcapture %}
+
+{% assign post = page %}
+{% if post.tags.size > 0 %}
+    {% for post_tag in post.tags %}
+        {% if post_tag %}
+            {% capture tags_content_temp %}{{ taxa }}<a href="{{ site.baseurl }}/label/{{ post_tag }}/">{{ post_tag }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign taxa = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+	{% capture taxa %}<p class='post-taxa'>{{ taxa }}</p>{% endcapture %}
+{% else %}
+    {% assign taxa = '' %}
+{% endif %}
+
+{% capture license %}{% endcapture %}
+{% assign post = page %}
+{% if post.license %}
+	{% capture license %}
+	<p class='post-license'>
+	{% if post.license == 'cc-by-sa' %}
+		<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" target="_blank">CC BY-SA</a>
+	{% elsif post.license == 'cc-zero' %}
+		<a href="http://creativecommons.org/publicdomain/zero/1.0/legalcode" target="_blank">CC-0</a>
+	{% elsif post.license == 'wtfpl' %}
+		<a href="http://www.wtfpl.net/about/" target="_blank">WTFPL</a>
+	{% else %}
+		{{ post.license }}
+	{% endif %}
+	</p>
+	{% endcapture %}
+{% endif %}
+
+<div class="post">
+	{{ paginate }}
+    <header class="post-header">
+       <h1 class="post-title">{{ page.title }}</h1>
+       <p class="post-meta">&mdash;&nbsp;{{ page.date | date: "%-d %b %Y" }}&nbsp;&mdash; </p>
+	   {{ taxa }}
+	   {{ license }}
+    </header>
+    <article class="post-content" lang="en">{{ content }}</article>
+	{{ paginate }}
+</div>
+

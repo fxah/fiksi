@@ -1,0 +1,14 @@
+
+title: fiksi
+baseurl: "/fiksi"
+url: "https://fxah.github.io"
+twitter_username: fxah
+github_username:  fxah
+permalink: /:year/:month/:day/:title/
+paginate: 16
+markdown: kramdown
+kramdown:
+    input: GFM
+gems:
+    - jemoji
+
