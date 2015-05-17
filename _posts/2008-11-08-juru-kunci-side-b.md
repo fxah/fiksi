@@ -9,7 +9,7 @@ published: true
 license: cc-by-sa
 ---
 
-<p id='es'>«<a href="{{ site.baseurl }}/2008/10/25/juru-kunci-side-a/">[SIDE A]</a><em> Sebut aku kleptomania. Nyatanya, aku hanya pembosan. Kalian tuduh aku tukang pamer, menunjuk-nunjukkan curian ke orang yang tidak punya</em> interest<em>. Tidak. Buku biru itu bukan suvenir buatku. Lebih seperti</em> ice-breaker<em>, sebuah selingan di masa panjang yang sunyi. Selingan yang istimewa. Bahkan lebih. Saat itu, aku* overwhelmed*. Euforik. Katartik. Buku itu terlalu berharga untuk diperlakukan sebagai barang curian.</em></p>
+<p id='es' class='ni'>«<a href="{{ site.baseurl }}/2008/10/25/juru-kunci-side-a/">[SIDE A]</a><em> Sebut aku kleptomania. Nyatanya, aku hanya pembosan. Kalian tuduh aku tukang pamer, menunjuk-nunjukkan curian ke orang yang tidak punya</em> interest<em>. Tidak. Buku biru itu bukan suvenir buatku. Lebih seperti</em> ice-breaker<em>, sebuah selingan di masa panjang yang sunyi. Selingan yang istimewa. Bahkan lebih. Saat itu, aku* overwhelmed*. Euforik. Katartik. Buku itu terlalu berharga untuk diperlakukan sebagai barang curian.</em></p>
 
 *Sore aku embat. Malamnya, buku itu mulai kuperlakukan seperti jimat. Aku membukanya. Halaman demi halaman. Dan di setiap alinea yang terbaca, kembali terbayang betapa panjang dan menegangkannya cara untuk mendapatkannya: setiap langkah, setiap detik pengamatan, setiap tetes keringat. Sebuah komemorasi yang pelaaan; menjelang habis satu bab, aku seperti terjangkit semacam megalomania, bahwa hanya akulah yang bisa memperlakukannya sedemikian suci, sedemikian takzim, sedemikian berharga di tiap-tiap aksara. Aku berbeda dengan orang-orang yang masuk ke perpus untuk berteduh, tidur, membatiki meja dengan coret-coretan cauvinistik. Lain. Aku datang dengan sebab,* rebel with a cause*.*
 
@@ -130,7 +130,7 @@ Jaket Jingga sibuk meraba-raba tembok di tangga yang gelap. Dia menimang kartu-k
 		</td>
 		<td style='width:20%;text-align:center;'><strong>ATAU</strong></td>
 		<td style='width:50%'>
-			<p>Ini peluangku. Kurebut kedua buku dari tangannya. “Ikut saja. Atau kamu akan menyesal,” ancamnya. Aku kibaskan tanganku yang dia cengkeram. “Kamu akan menyesal!”</p>
+			<p style='color:#555'>Ini peluangku. Kurebut kedua buku dari tangannya. “Ikut saja. Atau kamu akan menyesal,” ancamnya. Aku kibaskan tanganku yang dia cengkeram. “Kamu akan menyesal!”</p>
 		</td>
 	</tr>
 </table>

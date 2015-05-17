@@ -2,6 +2,7 @@
 title: fiksi
 baseurl: "/fiksi"
 url: "https://fxah.github.io"
+timezone: Asia/Jakarta
 twitter_username: fxah
 github_username:  fxah
 permalink: /:year/:month/:day/:title/

@@ -9,7 +9,7 @@ published: true
 license: cc-by-sa
 ---
 
-«[[SIDE B]({{ site.baseurl }}/2008/11/08/juru-kunci-side-b/#jk-b-pre)] Aku diseret ke bawah, menuruni tangga yang semakin gelap. Teman-teman Jaket Jingga sudah lebih dulu menghilang.
+<p class='ni'>«<a href="{{ site.baseurl }}/2008/11/08/juru-kunci-side-b/#jk-b-pre">[SIDE B]</a> Aku diseret ke bawah, menuruni tangga yang semakin gelap. Teman-teman Jaket Jingga sudah lebih dulu menghilang.</p>
 
 Setelah turun satu lantai, berarti di lantai dua, bagian Utara yang bersebelahan dengan kompartemen Perpustakaan Umum, aku disambut lorong gelap. Tidak ada lampu sama sekali. Hanya kurasakan permukaan tembok yang kasar dan dingin.
 
