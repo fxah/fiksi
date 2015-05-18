@@ -2,7 +2,7 @@
 layout: post
 title: Tebusan Buat Red Chief
 date: 2009-02-07 00:47:54.000000000 +07:00 
-license: wtfpl
+license: cc-zero
 tags: 
   - cerpen 
   - terjemahan 
