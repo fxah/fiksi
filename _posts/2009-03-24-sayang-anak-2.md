@@ -133,5 +133,5 @@ Dia malas-malasan berdiri. “Kita pernah terlalu overestimasi, kan?”
 
 Si Manis. Aku sudah sempat lupa. Begitu Si Bapak pergi, ketakutanku datang lagi.
 
-<p class='mr cn'><a href="{{ site.baseurl }}/2009/03/24/sayang-anak-1/">I</a> · II  · <a href="{{ site.baseurl }}/2009/03/24/sayang-anak-2/">III</a></p>
+<p class='mr cn'><a href="{{ site.baseurl }}/2009/03/24/sayang-anak-1/">I</a> · II  · <a href="{{ site.baseurl }}/2009/03/24/sayang-anak-3/">III</a></p>
 

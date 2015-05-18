@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .site-header .wrapper a{
 	display:inline-block;
-	font:bold small-caps 2em "Source Sans Pro", sans-serif;
+	font:bold small-caps 2em "Source Sans Pro", "Arial", sans-serif;
 	margin:8px 0;
 	color:#ccc;
 	text-decoration:none;
@@ -148,7 +148,7 @@ article{
 	padding-bottom:1em;
 }
 article.post-content{
-	font:normal normal 1.8em/1.5em "Bitter", "Times New Roman", sans-serif;
+	font:normal normal 1.8em/1.5em "Bitter", "Times New Roman", serif;
 }
 article .emoji{
 	width:1em;
@@ -167,7 +167,7 @@ article p{
 }
 article p code,
 article pre code{
-	font-family:"Liberation Mono", "Courier", "Courier New", monospace;
+	font-family:"Liberation Mono", "Source Code Pro", "Courier", "Courier New", monospace;
 }
 article p code{
 	font-size:1em;
@@ -206,7 +206,7 @@ article blockquote{
 /* screenplay stuff */
 
 .s-ts,.s-st,.s-ds,.s-ch,.s-di,.s-dj,.s-em{
-	font:normal normal .8em/1.4em "Liberation Mono", "Courier", "Courier New", monospace;
+	font:normal normal .8em/1.4em "Liberation Mono", "Source Code Pro", "Courier", "Courier New", monospace;
 	text-indent:0;
 	-moz-hyphens: manual;
 	-webkit-hypens: manual;
