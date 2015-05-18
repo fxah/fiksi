@@ -21,11 +21,11 @@ Aku jejakkan kaki di sebuah ruangan sempit, disekat di tiga penjuru dengan rak-r
 
 Di rak-rak pembatas ruangan, buku-buku dijajarkan. Semuanya berwarna coklat, tidak ada yang *paperback*. Yang bisa kukenali dari tulang-belakangnya adalah *Di Bawah Bendera Revolusi*, lalu *Das Kapital I, II, III* dalam bahasa asli, ditata rapi di deret teratas rak yang kuhadap. Ada yang tersampir di deret itu, sepertinya mimeo. Di sampulnya tercetak besar-besar *From Jail to Jail*, ditimpa spidolan ‘dari penjara ke penjara rev mar 89’. Di deret bawahnya ada *The Brothers Karamazov*, *Dead Souls*, *War and Peace*, disusul judul-judul non-Inggris dan beberapa non-Latin.
 
-<p class='cn' style='float:right;margin-top:.5em'><img src="{{ site.baseurl }}/asset/2008-11-08-cc.jpg" alt="cc.jpg" title="© 1989 HIMAKA"/></p>
+<p class='ni'><img style='float:right;margin-left:.5em' src="{{ site.baseurl }}/asset/2008-11-08-cc.jpg" alt="cc.jpg" title="© 1989 HIMAKA"/></p>
 
 Ada empat kursi yang sudah berantakan sponnya, menghadap ke tengah meja tempat *One Day in the Life of Ivan Denisovich* ditelentangkan. Satu kursi diduduki mahasiswa berjaket marun. Masih ada dua orang lagi. Yang satu berjaket hijau tua. Yang satu gondrong, berewokan, memakai jaket denim yang penuh robekan. Jaket Denim baru saja menjatuhkan selembar selebaran ke lantai, sablonan kertas buram yang sepertinya belepotan cat duluan sebelum sempat dipotong melintang.
 
-<p class='cn' style='float:right;margin-top:.5em'><img src="{{ site.baseurl }}/asset/2008-11-08-tm.jpg" alt="tm.jpg" title="T. M."/></p>
+<p class='ni'><img style='float:right;margin-left:.5em' src="{{ site.baseurl }}/asset/2008-11-08-tm.jpg" alt="tm.jpg" title="T. M."/></p>
 
 “Silakan!” kata Jaket Marun, waktu aku masih melihat sekeliling dan menemukan sebuah gambar arsiran tertempel di rak.
 

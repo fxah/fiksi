@@ -6,10 +6,13 @@ timezone: Asia/Jakarta
 twitter_username: fxah
 github_username:  fxah
 permalink: /:year/:month/:day/:title/
-paginate: 16
+paginate: 8
 markdown: kramdown
 kramdown:
     input: GFM
 gems:
     - jemoji
-
+exclude: 
+    - prepare-label.sh
+    - Gemfile
+    - Gemfile.lock
