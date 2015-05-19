@@ -4,13 +4,15 @@ title: Halo
 permalink: /about/
 ---
 
-Haiii..., apa kabar? :kissing_heart:
+Haiii..., apa kabar?
 
-Selamat datang di blog fiksi saya, ya?
+<p class='ni' style='float:right'><img style='margin:.5em' src="https://www.gravatar.com/avatar/ef266bfc718df725b8e9762d90cd86dc" alt="..."/></p>
 
-Iya, sih, isinya dari dulu memang hanya segitu-segitu saja. Yhah! Yang penting stok lama dikumpulkan dulu. Barangkali nanti ada waktu untuk bikin yang baru. :sweat_smile:
+Saya Andrea Hifran, seorang pengarsip/*archivist* yang kalau lagi stres suka nonton, koding, nari, lari, dan kadang bikin fiksi.
 
-Beberapa fiksi yang ada di blog ini adalah *repost/reblog/repsol* dari tempat lain: [ini](https://hifran.wordpress.com/ "Wordpress.com"), [ini](http://kemudian.com/users/andrea "Kemudian.com") dan situs lain yang sudah jadi almarhumah. 
+Teman lama mungkin sudah faham kalau blog fiksi ini isinya hanya segitu-segitu saja. Yhah, yang penting stok lama dikumpulkan dulu. Barangkali nanti ada waktu untuk bikin yang baru. :sweat_smile:
+
+Beberapa fiksi yang ada di blog ini adalah *repost/reblog* dari tempat lain: [ini](https://hifran.wordpress.com/ "Wordpress.com"), [ini](http://kemudian.com/users/andrea "Kemudian.com") dan situs lain yang sudah jadi almarhumah. 
 
 Seiring dengan berjalannya waktu, lama-lama saya kehilangan catatan tentang fiksi-fiksi yang bertebaran itu. Ditambah kerusakan HDD, kehilangan akun, dan berbagai masalah teknis lainnya, kadang saya sampai lupa pernah menulis apa. Celakanya, ketika ada orang yang menghubungi saya dan bertanya tentang cerpen ini atau itu, saya hanya bisa jawab, "Ehm ... anu ...."
 
@@ -24,5 +26,5 @@ Itu saja yang bisa saya sampaikan. Bila ada pertanyaan/bahan obrolan/topik disku
 
 Ah, ya. Apabila Anda berkenan memakai *theme* blog ini, langsung saja klon repo [`fiksi`](https://github.com/{{ site.github_username }}{{ site.baseurl }}) dan periksa *branch* `master`. Jangan memakai *branch* `gh-pages` yang sudah terkotori oleh isi blog ini.
 
-Terima kasih atas kedatangannya, selamat membaca, dan ... :beers:.
+Terima kasih atas kedatangannya. Selamat menikmati kunjung&shy;an Anda.
 
