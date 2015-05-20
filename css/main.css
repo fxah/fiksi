@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* text align */
+
 .lf{
 	text-align:left !important;
 }
@@ -41,7 +42,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .site-header .wrapper a{
 	display:inline-block;
-	font:bold small-caps 2em "Source Sans Pro", sans-serif;
+	font:bold small-caps 2em "Source Sans Pro", "Arial", sans-serif;
 	margin:8px 0;
 	color:#ccc;
 	text-decoration:none;
@@ -54,14 +55,27 @@ nav {
 nav:after{
 	clear:both;
 }
-.icon > svg{
+nav .icon,.pagination .icon{
 	display:inline-block;
 	vertical-align:middle;
 	height:16px;
 	width:16px;
-}
-nav .icon > svg{
 	margin-left:4px;
+	background:transparent url(icons.png) 0 0 no-repeat;
+}
+nav .icon-about{
+}
+nav .icon-copying{
+	background-position:0 -16px;
+}
+nav .icon-github{
+	background-position:0 -32px;
+}
+nav .icon-twitter{
+	background-position:0 -48px;
+}
+nav .icon-feed{
+	background-position:0 -64px;
 }
 
 /* content */
@@ -91,8 +105,15 @@ nav .icon > svg{
 
 /* pagination */
 
-.home{
+.post-list-home{
 	margin-bottom:5em;
+}
+
+.prv{
+	float:left;
+}
+.nxt{
+	float:right;
 }
 ul.pagination{
 	padding:0;
@@ -100,11 +121,15 @@ ul.pagination{
 ul.pagination li{
 	display:inline-block;
 }
-.previous{
-	float:left;
+.pagination .icon{
+	display:inline-block;
+	vertical-align:middle;
+	height:24px;
+	width:24px;
+	background:transparent url(arrows.png) 0 0 no-repeat;
 }
-.next{
-	float:right;
+.pagination .icon.icon-nxt{
+	background-position:0 -24px;
 }
 .pagination:after {
 	content: "";
@@ -148,7 +173,7 @@ article{
 	padding-bottom:1em;
 }
 article.post-content{
-	font:normal normal 1.8em/1.5em "Bitter", "Times New Roman", sans-serif;
+	font:normal normal 1.8em/1.5em "Bitter", "Times New Roman", serif;
 }
 article .emoji{
 	width:1em;
@@ -167,7 +192,7 @@ article p{
 }
 article p code,
 article pre code{
-	font-family:"Liberation Mono", "Courier", "Courier New", monospace;
+	font-family:"Source Code Pro", "Droid Sans Mono", "Courier New", monospace;
 }
 article p code{
 	font-size:1em;
@@ -206,7 +231,7 @@ article blockquote{
 /* screenplay stuff */
 
 .s-ts,.s-st,.s-ds,.s-ch,.s-di,.s-dj,.s-em{
-	font:normal normal .8em/1.4em "Liberation Mono", "Courier", "Courier New", monospace;
+	font:normal normal .8em/1.4em "Source Code Pro", "Droid Sans Mono", "Courier New", monospace;
 	text-indent:0;
 	-moz-hyphens: manual;
 	-webkit-hypens: manual;
@@ -249,12 +274,14 @@ article blockquote{
 	text-align:center;
 }
 .post-list{
-	margin:2em 0 0 0;
 	padding:0;
+	max-width:80%;
+	margin:2em auto 0 auto;
 }
 .post-list li{
 	list-style-type:none;
 	margin:0 0 1em 0;
+	text-align:center;
 }
 a.post-link, a.post-link:visited{
 	font:italic normal 1.6em "Crimson Text", "Bitter", serif;
@@ -298,6 +325,9 @@ footer a,footer a:visited{
 	}
 	article.post-content {
 		font-size:1.4em;
+	}
+	.post-list{
+		max-width:none;
 	}
 }
 

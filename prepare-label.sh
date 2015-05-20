@@ -1,12 +1,23 @@
 #!/bin/bash
 
-cd -P "$(dirname "${BASH_SOURCE[0]}")"
+# This theme ignores categories altogether and only use tags which are
+# called 'label' pulled from your front matter. This script create a
+# template for listing posts under a label.
 
-[ -z "$1" ] && exit 1
+cd -P "$(dirname "${BASH_SOURCE[0]}")"
+[ ! -d ./label ] && mkdir ./label
+
+_usage()
+{
+	echo "Usage: $0 <label1> ..."
+	exit $1
+}
+
+[ -z "$1" ] && _usage 1
+[ "$1" = -h ] && _usage 0
 
 _make_label()
 {
-	[ ! -d ./label ] && mkdir ./label
 	FL=./label/"$1".md
 	cat > "$FL" <<EOD
 ---

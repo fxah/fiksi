@@ -5,4 +5,5 @@
 *.lock
 
 /_site
+/css/*.png
 

@@ -12,4 +12,13 @@ kramdown:
     input: GFM
 gems:
     - jemoji
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - prepare-icons.sh
+    - prepare-label.sh
+    - preview-bundle.sh
+    - svg
 

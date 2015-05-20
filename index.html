@@ -4,32 +4,24 @@ layout: default
 {% capture pg %}
 <ul class="pagination">
 	{% if paginator.previous_page %}
-	<li class='previous'>
+	<li class='prv'>
 		<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
-			<span class='icon'>
-				<svg viewBox="0 0 512 512">
-					<path fill="#333" d="M 348.219,256 440.438,440.438 71.563,256 M 512,0 0,256 512,512 384,256 512,0 l 0,0 z"/>
-				</svg>
-			</span>
+			<span class='icon icon-prv'></span>
 		</a>
 	</li>
 	{% endif %}
 	{% if paginator.next_page %}
-	<li class='next'>
+	<li class='nxt'>
 		<a href="{{ site.baseurl }}{{ paginator.next_page_path }}">
-			<span class='icon'>
-				<svg viewBox="0 0 512 512">
-					<path fill="#333" d="M 163.781,256 71.562,71.562 440.437,256 M 0,512 512,256 0,0 128,256 0,512 l 0,0 z"/>
-				</svg>
-			</span>
+			<span class='icon icon-nxt'>
+				<svg viewBox="0 0 512 512"></span>
 		</a>
 	</li>
 	{% endif %}
 </ul>
 {% endcapture %}
-
 {{ pg }}
-<div class="home">
+<div class="post-list-home">
 	<h1 class='post-list-header'>Articles</h1>
 	<ul class="post-list">
 		{% for post in paginator.posts %}
